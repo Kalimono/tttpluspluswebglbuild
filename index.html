@@ -26,9 +26,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/ttt++build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/ttt++build.data",
-        frameworkUrl: buildUrl + "/ttt++build.framework.js",
-        codeUrl: buildUrl + "/ttt++build.wasm",
+        dataUrl: buildUrl + "/ttt++build.data.unityweb",
+        frameworkUrl: buildUrl + "/ttt++build.framework.js.unityweb",
+        codeUrl: buildUrl + "/ttt++build.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "tictactoc++",
@@ -45,8 +45,8 @@
         container.className = "unity-mobile";
         config.devicePixelRatio = 1;
       } else {
-        canvas.style.width = "430px";
-        canvas.style.height = "300px";
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
       }
       loadingBar.style.display = "block";
 
